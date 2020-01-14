@@ -32,6 +32,9 @@ class Song
          puts "#{index}.#{song}"
     end
     
+    
+    
+    
     def Song.alphabetical%w()
       array.sort
     end
