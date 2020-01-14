@@ -23,8 +23,8 @@ class Song
     @@all << song
   end
   
-  def Song.find_by_name(name)
-    @@all.find{ |song| song.name == name}
+  def Song.find_by_name(song_name)
+    self.all.find{ |song| song.name == song_name}
   end
 
    def Song.find_or_create_by_name(name)
